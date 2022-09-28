@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/calculadora.js"></script>
+</head>
+
+<body>
+    <h1 align="center">Calculadora</h1>
+    <p align="center">Ingresa aquí dos números para hacer una operación</p>
+    <div class="container-md">
+        <!--   bootstrapp text index  -->
+        <div align="center" class="input-group">
+            <span class="input-group-text">Agrega dos números</span>
+            <input type="text" aria-label="First name" class="form-control">
+            <input type="text" aria-label="Last name" class="form-control">
+          </div>
+          <!-- Botones --> 
+         <div class="row-md-3">
+            <div class="col-md-4" align="center">
+                <p><button type="button" class="btn btn-primary" onclick="calc(+)">+</button></p>
+            </div>
+            <div class="col-md-3" align="center">
+                    <p><button type="button" class="btn btn-secondary" onclick="calc(-)">-</button></p>
+            </div>
+            <div class="col-md-3" align="center">
+                <p><button type="button" class="btn btn-success" onclick="calc(*)">x</button></p>
+            </div>
+            <div class="col-md-3" align="center">
+                <button type="button" class="btn btn-danger" onclick="calc(/)">/</button></div>
+         </div>
+
+</div>
+    
+</body>
+
+</html>
